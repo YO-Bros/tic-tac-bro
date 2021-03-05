@@ -26,7 +26,7 @@ library:
   source-dirs: src
 
 executables:
-  tic-tac-bro-exe:
+  tic-tac-bro:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -35,6 +35,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - tic-tac-bro
+    - gloss
 
 tests:
   tic-tac-bro-test:
