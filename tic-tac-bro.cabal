@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 43a8a3593d8393d1d8fd96967b9a3f2a029eae13e2ab47f0b6d5447b31147591
+-- hash: ae6f2a501134d1580073852eed04e92f7473af55ff342e3b6e8e36d0a3bdc35e
 
 name:           tic-tac-bro
 version:        0.1.0.0
@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Tic
   other-modules:
       Paths_tic_tac_bro
   hs-source-dirs:
